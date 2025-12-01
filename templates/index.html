@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <h2 class="mb-4 text-start">General Analytics — Computer Science</h2>
+
+        <div class="card shadow-sm border-0 mb-5">
+            <div class="card-body">
+                <div class="row align-items-center">
+                <!-- Chart Section -->
+                <div class="col-lg-8 col-md-12 text-center mb-4 mb-lg-0">
+                    <img src="data:image/png;base64,{{ chart }}" alt="Domain Analysis Chart"
+                        class="img-fluid rounded shadow-sm" style="max-height: 400px;">
+                </div>
+
+                <!-- Stats Section -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="d-flex flex-column gap-3">
+                    <!-- Avg Papers -->
+                    <div class="p-3 rounded bg-light shadow-sm text-center">
+                        <h6 class="text-muted mb-1">Average Papers / Year</h6>
+                        <h3 class="fw-bold text-primary">{{ avg_papers }}</h3>
+                    </div>
+
+                    <!-- Papers This Year -->
+                    <div class="p-3 rounded bg-light shadow-sm text-center">
+                        <h6 class="text-muted mb-1">Papers in {{ current_year }}</h6>
+                        <h3 class="fw-bold text-success">{{ papers_this_year }}</h3>
+                    </div>
+
+                    <!-- Total Papers -->
+                    <div class="p-3 rounded bg-light shadow-sm text-center">
+                        <h6 class="text-muted mb-1">Total Papers</h6>
+                        <h3 class="fw-bold text-danger">{{ total_papers }}</h3>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mt-5 mb-3 text-start">Trending Topics</h3>
+        <div id="topics-analytics" class="p-4 bg-light rounded border text-muted">
+            [Interactive Topics Chart Placeholder]
+        </div>
+    </div>
+{% endblock %}
+

@@ -1,0 +1,779 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2025-10-06T09:22:54Z",
+      "timestamp": 1759742574901
+    },
+    "reference-count": 68,
+    "publisher": "Frontiers Media SA",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Front. Psychol."
+    ],
+    "DOI": "10.3389/fpsyg.2015.00049",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          11
+        ]
+      ],
+      "date-time": "2015-02-11T06:03:47Z",
+      "timestamp": 1423634627000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 411,
+    "title": [
+      "Cultural stereotypes as gatekeepers: increasing girlsâ€™ interest in computer science and engineering by diversifying stereotypes"
+    ],
+    "prefix": "10.3389",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Sapna",
+        "family": "Cheryan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Allison",
+        "family": "Master",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew N.",
+        "family": "Meltzoff",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "author": "American Bar Association.",
+        "year": "2014",
+        "journal-title": "JD and LLB Degrees Awarded, 1981-2011."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "598",
+        "DOI": "10.3102/00028312019004598",
+        "article-title": "Consequences in high school and college of sex differences in mathematical reasoning ability: a longitudinal perspective.",
+        "volume": "19",
+        "author": "Benbow",
+        "year": "1982",
+        "journal-title": "Am. Educ. Res. J."
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "102",
+        "DOI": "10.1111/j.1749-6632.1999.tb08362.x",
+        "article-title": "What draws women to and keeps women in computing?",
+        "volume": "869",
+        "author": "Borg",
+        "year": "1999",
+        "journal-title": "Annu. N. Y. Acad. Sci."
+      },
+      {
+        "key": "B4",
+        "author": "Bureau of Labor Statistics",
+        "year": "2014",
+        "journal-title": "Computer and Information Research Scientist."
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "75",
+        "DOI": "10.1177/1529100614541236",
+        "article-title": "Women in academic science: a changing landscape.",
+        "volume": "15",
+        "author": "Ceci",
+        "year": "2014",
+        "journal-title": "Psychol. Sci. Public Interest"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "218",
+        "DOI": "10.1037/a0014412",
+        "article-title": "Womenâ€™s underrepresentation in science: sociocultural and biological considerations.",
+        "volume": "135",
+        "author": "Ceci",
+        "year": "2009",
+        "journal-title": "Psychol. Bull."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "184",
+        "DOI": "10.1007/s11199-011-0060-z",
+        "article-title": "Understanding the paradox in math-related fields: why do some gender gaps remain while others do not?",
+        "volume": "66",
+        "author": "Cheryan",
+        "year": "2012",
+        "journal-title": "Sex Roles"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "72",
+        "DOI": "10.1177/0361684312459328",
+        "article-title": "Enduring influence of stereotypical computer science role models on womenâ€™s academic aspirations.",
+        "volume": "37",
+        "author": "Cheryan",
+        "year": "2013a",
+        "journal-title": "Psychol. Women Q."
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "58",
+        "DOI": "10.1007/s11199-013-0296-x",
+        "article-title": "The stereotypical computer scientist: gendered media representations as a barrier to inclusion for women.",
+        "volume": "69",
+        "author": "Cheryan",
+        "year": "2013b",
+        "journal-title": "Sex Roles"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1825",
+        "DOI": "10.1016/j.compedu.2011.02.004",
+        "article-title": "Classrooms matter: the design of virtual classrooms influences gender disparities in computer science classes.",
+        "volume": "57",
+        "author": "Cheryan",
+        "year": "2011a",
+        "journal-title": "Comput. Educ."
+      },
+      {
+        "key": "B11",
+        "doi-asserted-by": "publisher",
+        "first-page": "656",
+        "DOI": "10.1177/1948550611405218",
+        "article-title": "Do female and male role models who embody STEM stereotypes hinder womenâ€™s anticipated success in STEM?",
+        "volume": "2",
+        "author": "Cheryan",
+        "year": "2011b",
+        "journal-title": "Soc. Psychol. Pers. Sci."
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "1045",
+        "DOI": "10.1037/a0016239",
+        "article-title": "Ambient belonging: how stereotypical cues impact gender participation in computer science.",
+        "volume": "97",
+        "author": "Cheryan",
+        "year": "2009",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1015",
+        "DOI": "10.1037/0022-3514.58.6.1015",
+        "article-title": "A focus theory of normative conduct: recycling the concept of norms to reduce littering in public places.",
+        "volume": "58",
+        "author": "Cialdini",
+        "year": "1990",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B14",
+        "author": "College Board",
+        "year": "2013",
+        "journal-title": "AP Program Participation and Performance Data 2013."
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1691",
+        "DOI": "10.1086/321299",
+        "article-title": "Gender and the career choice process: the role of biased self-assessments.",
+        "volume": "106",
+        "author": "Correll",
+        "year": "2001",
+        "journal-title": "Am. J. Soc."
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "766",
+        "DOI": "10.1111/j.1467-8624.2010.01529.x",
+        "article-title": "Mathâ€“gender stereotypes in elementary school children.",
+        "volume": "82",
+        "author": "Cvencek",
+        "year": "2011",
+        "journal-title": "Child Dev."
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "231",
+        "DOI": "10.1080/1047840X.2011.607313",
+        "article-title": "Ingroup experts and peers as social vaccines who inoculate the self-concept: the stereotype inoculation model.",
+        "volume": "22",
+        "author": "Dasgupta",
+        "year": "2011",
+        "journal-title": "Psychol. Inq."
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1002/j.2168-9830.2009.tb01020.x",
+        "article-title": "Widening the net: national estimates of gender disparities in engineering.",
+        "volume": "98",
+        "author": "de Cohen",
+        "year": "2009",
+        "journal-title": "J. Eng. Educ."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1051",
+        "DOI": "10.1177/0956797610377342",
+        "article-title": "Seeking congruity between goals and roles: a new look at why women opt out of STEM careers.",
+        "volume": "21",
+        "author": "Diekman",
+        "year": "2010",
+        "journal-title": "Psychol. Sci."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "902",
+        "DOI": "10.1037/a0025199",
+        "article-title": "Malleability in communal goals and beliefs influences attraction to STEM careers: evidence for a goal congruity perspective.",
+        "volume": "101",
+        "author": "Diekman",
+        "year": "2011",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "265",
+        "DOI": "10.1080/1047840X.2011.620935",
+        "article-title": "When do female role models benefit women? The importance of differentiating recruitment from retention in STEM.",
+        "volume": "22",
+        "author": "Drury",
+        "year": "2011",
+        "journal-title": "Psychol. Inq."
+      },
+      {
+        "key": "B22",
+        "author": "Eagly",
+        "year": "2007",
+        "journal-title": "Through the Labyrinth: The Truth about How Women Become Leaders."
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "183",
+        "DOI": "10.1111/j.1540-4560.1990.tb01929.x",
+        "article-title": "Gender role stereotypes, expectancy effects, and parentsâ€™ socialization of gender differences.",
+        "volume": "46",
+        "author": "Eccles",
+        "year": "1990",
+        "journal-title": "J. Soc. Issues"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1037/0022-3514.84.1.5",
+        "article-title": "How chronic self-views influence (and potentially mislead) estimates of performance.",
+        "volume": "84",
+        "author": "Ehrlinger",
+        "year": "2003",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B25",
+        "article-title": "Women and science at Yale.",
+        "author": "Gelernter",
+        "year": "1999",
+        "journal-title": "The Weekly Standard."
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "700",
+        "DOI": "10.1037/a0026659",
+        "article-title": "Why do women opt out? Sense of belonging and womenâ€™s representation in mathematics.",
+        "volume": "102",
+        "author": "Good",
+        "year": "2012",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B27",
+        "article-title": "Silent technical privilege.",
+        "author": "Guo",
+        "year": "2014",
+        "journal-title": "Slate."
+      },
+      {
+        "key": "B28",
+        "article-title": "Giving women the access code.",
+        "author": "Hafner",
+        "year": "2012",
+        "journal-title": "The New York Times."
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "129",
+        "DOI": "10.1037/h0057880",
+        "article-title": "They saw a game.",
+        "volume": "49",
+        "author": "Hasdorf",
+        "year": "1954",
+        "journal-title": "J. Abnorm. Soc. Psychol."
+      },
+      {
+        "key": "B30",
+        "author": "Hewlett",
+        "year": "2008",
+        "journal-title": "Factor: Reversing the Brain Drain in Science, Engineering, and Technology."
+      },
+      {
+        "key": "B31",
+        "first-page": "117",
+        "article-title": "Using notable women in environmental engineering to dispel misperceptions of engineers.",
+        "volume": "4",
+        "author": "Hoh",
+        "year": "2009",
+        "journal-title": "Int. J. Environ. Sci. Educ."
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "545",
+        "DOI": "10.1037/0022-0663.99.3.545",
+        "article-title": "Stereotype threat among schoolgirls in quasi-ordinary classroom circumstances.",
+        "volume": "99",
+        "author": "Huguet",
+        "year": "2007",
+        "journal-title": "J. Educ. Psychol."
+      },
+      {
+        "key": "B33",
+        "author": "Jolliff",
+        "year": "2012",
+        "journal-title": "Women in U. S. Academic Medicine and Science: Statistics and Benchmarking Report 2011-2012."
+      },
+      {
+        "key": "B34",
+        "article-title": "Best jobs in America.",
+        "author": "Kalwarski",
+        "year": "2007",
+        "journal-title": "CNNMoney.com."
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "262",
+        "DOI": "10.1126/science.1261375",
+        "article-title": "Expectations of brilliance underlie gender distributions across academic disciplines.",
+        "volume": "347",
+        "author": "Leslie",
+        "year": "2015",
+        "journal-title": "Science"
+      },
+      {
+        "key": "B36",
+        "first-page": "381",
+        "article-title": "Unlocking the clubhouse: women in computing.",
+        "volume": "26",
+        "author": "Margolis",
+        "year": "2002",
+        "journal-title": "Psychol. Women Q."
+      },
+      {
+        "key": "B37",
+        "first-page": "104",
+        "article-title": "Anatomy of interest: women in undergraduate computer science.",
+        "volume": "28",
+        "author": "Margolis",
+        "year": "2000",
+        "journal-title": "Womens Stud. Q. Spec. Issue Women Sci."
+      },
+      {
+        "key": "B38",
+        "doi-asserted-by": "publisher",
+        "first-page": "224",
+        "DOI": "10.1037/0033-295X.98.2.224",
+        "article-title": "Culture and the self: implications for cognition, emotion, and motivation.",
+        "volume": "98",
+        "author": "Markus",
+        "year": "1991",
+        "journal-title": "Psychol. Rev."
+      },
+      {
+        "key": "B39",
+        "first-page": "4",
+        "article-title": "Will Computer Engineer BarbieÂ®; impact young womenâ€™s career choices?",
+        "volume": "10",
+        "author": "Martincic",
+        "year": "2012",
+        "journal-title": "Inform. Syst. Educ. J."
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "432",
+        "DOI": "10.1037/0022-3514.88.3.432",
+        "article-title": "We can do it: the interplay of construal orientation and social comparisons under threat.",
+        "volume": "88",
+        "author": "Marx",
+        "year": "2005",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B41",
+        "first-page": "79",
+        "article-title": "Reducing adolescent girlsâ€™ concerns about STEM stereotypes: when do female teachers matter?",
+        "volume": "27",
+        "author": "Master",
+        "year": "2014",
+        "journal-title": "Int. Rev. Soc. Psychol."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/acprof:oso/9780199890712.001.0001",
+        "article-title": "â€œOrigins of social cognition: bidirectional self-other mapping and the â€œLike-Meâ€ hypothesis,â€ in",
+        "author": "Banaji",
+        "year": "2013",
+        "journal-title": "Navigating the Social World: What Infants, Children, and Other Species Can Teach us,"
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "publisher",
+        "first-page": "335",
+        "DOI": "10.1111/j.1365-2729.2006.00182.x",
+        "article-title": "Images of self and others as computer users: the role of gender and experience.",
+        "volume": "22",
+        "author": "Mercier",
+        "year": "2006",
+        "journal-title": "J. Comput. Assist. Learn."
+      },
+      {
+        "key": "B44",
+        "article-title": "Technologyâ€™s man problem.",
+        "author": "Miller",
+        "year": "2014",
+        "journal-title": "The New York Times."
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "16464",
+        "DOI": "10.1073/pnas.1211286109",
+        "article-title": "Science facultyâ€™s subtle gender biases favor male students.",
+        "volume": "109",
+        "author": "Moss-Racusin",
+        "year": "2012",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "879",
+        "DOI": "10.1111/j.1467-9280.2007.01995.x",
+        "article-title": "Signaling threat: how situational cues affect women in math, science, and engineering settings.",
+        "volume": "18",
+        "author": "Murphy",
+        "year": "2007",
+        "journal-title": "Psychol. Sci."
+      },
+      {
+        "key": "B47",
+        "author": "National Science Foundation",
+        "year": "2012",
+        "journal-title": "Appendix Table 2-12. Freshmen Intending S&E Major, by Field, Sex, and Race/Ethnicity: 1995â€“2010."
+      },
+      {
+        "key": "B48",
+        "author": "National Science Foundation",
+        "year": "2013",
+        "journal-title": "TABLE 5-2. Bachelorâ€™s Degrees Awarded, by Field and Sex: 2002â€“2012."
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "first-page": "1658",
+        "DOI": "10.1037/a0027020",
+        "article-title": "Female and male adolescentsâ€™ subjective orientations to mathematics and the influence of those orientations on postsecondary majors.",
+        "volume": "48",
+        "author": "Perez-Felkner",
+        "year": "2012",
+        "journal-title": "Dev. Psychol."
+      },
+      {
+        "key": "B50",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1080/13691180701409838",
+        "article-title": "â€˜Iâ€™m not interested in computersâ€™: gender-based occupational choices of adolescents.",
+        "volume": "10",
+        "author": "Rommes",
+        "year": "2007",
+        "journal-title": "Inform. Commun. Soc."
+      },
+      {
+        "key": "B51",
+        "author": "Ross",
+        "year": "1991",
+        "journal-title": "The Person and the Situation: Perspectives of Social Psychology."
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "629",
+        "DOI": "10.1037/0022-3514.74.3.629",
+        "article-title": "Self-promotion as a risk factor for women: the costs and benefits of counterstereotypical impression management.",
+        "volume": "74",
+        "author": "Rudman",
+        "year": "1998",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B53",
+        "author": "Sadker",
+        "year": "1994",
+        "journal-title": "Failing at Fairness: How Americaâ€™s Schools Cheat Girls."
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "336",
+        "DOI": "10.1037/0033-295X.115.2.336",
+        "article-title": "An integrated process model of stereotype threat effects on performance.",
+        "volume": "115",
+        "author": "Schmader",
+        "year": "2008",
+        "journal-title": "Psychol. Rev."
+      },
+      {
+        "key": "B55",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+        "DOI": "10.1016/S0747-5632(00)00032-7",
+        "article-title": "Gender, internet and computer attitudes and experiences.",
+        "volume": "17",
+        "author": "Schumacher",
+        "year": "2001",
+        "journal-title": "Comput. Hum. Behav."
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "347",
+        "DOI": "10.2190/64MD-HTKW-PDXV-RD62",
+        "article-title": "Gender differences in computer experience and its influence on computer attitudes.",
+        "volume": "11",
+        "author": "Shashaani",
+        "year": "1994",
+        "journal-title": "J. Educ. Comput. Res."
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "131",
+        "DOI": "10.1177/0146167212468332",
+        "article-title": "When trying hard isnâ€™t natural: womenâ€™s belonging with and motivation for male-dominated STEM fields as a function of effort expenditure concerns.",
+        "volume": "39",
+        "author": "Smith",
+        "year": "2013",
+        "journal-title": "Pers. Soc. Psychol. Bull."
+      },
+      {
+        "key": "B58",
+        "article-title": "Analysis: the exploding demand for computer science education, and why America needs to keep up.",
+        "author": "Soper",
+        "year": "2014",
+        "journal-title": "Geekwire."
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "950",
+        "DOI": "10.1037/0003-066X.60.9.950",
+        "article-title": "Sex differences in intrinsic aptitude for mathematics and science? A critical review.",
+        "volume": "60",
+        "author": "Spelke",
+        "year": "2005",
+        "journal-title": "Am. Psychol."
+      },
+      {
+        "key": "B60",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1006/jesp.1998.1373",
+        "article-title": "Stereotype threat and womenâ€™s math performance.",
+        "volume": "35",
+        "author": "Spencer",
+        "year": "1999",
+        "journal-title": "J. Exp. Soc. Psychol."
+      },
+      {
+        "key": "B61",
+        "doi-asserted-by": "publisher",
+        "first-page": "613",
+        "DOI": "10.1037/0003-066X.52.6.613",
+        "article-title": "A threat in the air: how stereotypes shape intellectual identity and performance.",
+        "volume": "52",
+        "author": "Steele",
+        "year": "1997",
+        "journal-title": "Am. Psychol."
+      },
+      {
+        "key": "B62",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1177/1075547007306508",
+        "article-title": "Assessing media influences on middle schoolâ€“aged childrenâ€™s perceptions of women in science using the Draw-A-Scientist Test (DAST).",
+        "volume": "29",
+        "author": "Steinke",
+        "year": "2007",
+        "journal-title": "Sci. Commun."
+      },
+      {
+        "key": "B63",
+        "article-title": "Final Report of the Computer Science Teachers Association, Curriculum Improvement Task Force",
+        "author": "Stephenson",
+        "year": "2005",
+        "journal-title": "The New Educational Imperative: Improving High School Computer Science Education."
+      },
+      {
+        "key": "B64",
+        "doi-asserted-by": "publisher",
+        "first-page": "255",
+        "DOI": "10.1037/a0021385",
+        "article-title": "STEMing the tide: using ingroup experts to inoculate womenâ€™s self-concept in science, technology, engineering, and mathematics (STEM).",
+        "volume": "100",
+        "author": "Stout",
+        "year": "2011",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "B65",
+        "doi-asserted-by": "publisher",
+        "first-page": "1711",
+        "DOI": "10.1126/science.1178358",
+        "article-title": "The subtle transmission of race bias via televised nonverbal behavior.",
+        "volume": "326",
+        "author": "Weisbuch",
+        "year": "2009",
+        "journal-title": "Science"
+      },
+      {
+        "key": "B66",
+        "doi-asserted-by": "publisher",
+        "first-page": "326",
+        "DOI": "10.1016/j.appdev.2006.04.004",
+        "article-title": "Girls and science careers: the role of altruistic values and attitudes about scientific tasks.",
+        "volume": "27",
+        "author": "Weisgram",
+        "year": "2006",
+        "journal-title": "J. Appl. Dev. Psychol."
+      },
+      {
+        "key": "B67",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+        "DOI": "10.1525/eth.1980.8.2.02a00010",
+        "article-title": "Culture and social behavior: a model for the development of social behavior.",
+        "volume": "8",
+        "author": "Whiting",
+        "year": "1980",
+        "journal-title": "Ethos"
+      },
+      {
+        "key": "B68",
+        "article-title": "Revenge of the nerds: How Barbie got her geek on.",
+        "author": "Zimmerman",
+        "year": "2010",
+        "journal-title": "The Wall Street Journal."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Psychology"
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2017-06-23T01:19:45Z",
+      "timestamp": 1498180785000
+    },
+    "score": 81.276726,
+    "resource": {
+      "primary": {
+        "URL": "http://journal.frontiersin.org/Article/10.3389/fpsyg.2015.00049/abstract"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          11
+        ]
+      ]
+    },
+    "references-count": 68,
+    "URL": "https://doi.org/10.3389/fpsyg.2015.00049",
+    "ISSN": [
+      "1664-1078"
+    ],
+    "issn-type": [
+      {
+        "value": "1664-1078",
+        "type": "electronic"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          11
+        ]
+      ]
+    }
+  }
+]

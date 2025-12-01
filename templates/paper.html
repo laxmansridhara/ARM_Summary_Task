@@ -1,0 +1,127 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  <title>{{ paper.title|default:"Paper View" }}</title>
+{% endblock %}
+
+{% block main %}
+<div class="container py-4">
+  <h2 class="mb-4">{{ paper.title }}</h2>
+
+  <!-- DOI, Year, Citations, Link Card -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6 mb-2">
+          <strong>DOI:</strong> {{ paper.doi }}
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Published:</strong> {{ paper.publishing_year }}
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Citations:</strong> {{ paper.citations_count }}
+        </div>
+        <div class="col-md-6 mb-2">
+          <strong>Link:</strong>
+          <a href="{{ paper.link }}" target="_blank">{{ paper.link }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Authors Card -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <h5 class="card-title">Authors</h5>
+      <ul class="mb-0">
+        {% for author in authors %}
+          <li>
+            <a href="{% url 'author_detail' %}?name={{ author.name }}" class="text-decoration-none text-primary">
+              {{ author.name }}
+            </a>
+          </li>
+        {% empty %}
+          <li>No authors found.</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Topics Card -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <h5 class="card-title">Topics</h5>
+      <ul class="mb-0">
+        {% for topic in topics %}
+          <li>{{ topic.keyword }}</li>
+        {% empty %}
+          <li>No keywords assigned.</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <!-- Abstract Card -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <h5 class="card-title">Abstract</h5>
+      <p class="mb-0">{{ paper.abstract|safe }}</p>
+    </div>
+  </div>
+
+  <!-- Summary Card -->
+  <div class="card mb-4 shadow-sm">
+    <div class="card-body">
+      <h5 class="card-title">Summary</h5>
+
+      <form method="get" action="">
+        <!-- Keep DOI between requests -->
+        <input type="hidden" name="doi" value="{{ paper.doi }}">
+
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="min_percent" class="form-label">Minimum % of Abstract</label>
+            <input
+              type="number"
+              class="form-control"
+              id="min_percent"
+              name="min_percent"
+              min="5"
+              max="80"
+              value="{{ min_percent|default:30 }}"
+            />
+            <div class="form-text">Minimum compression percentage (default 30%).</div>
+          </div>
+
+          <div class="col-md-6">
+            <label for="max_percent" class="form-label">Maximum % of Abstract</label>
+            <input
+              type="number"
+              class="form-control"
+              id="max_percent"
+              name="max_percent"
+              min="10"
+              max="90"
+              value="{{ max_percent|default:60 }}"
+            />
+            <div class="form-text">Maximum compression percentage (default 60%).</div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Generate Summary</button>
+      </form>
+
+      <hr />
+
+      {% if summary %}
+        <p class="text-muted mb-2">
+          <small>Summary generated at approximately {{ min_percent }}–{{ max_percent }}% of the abstract length.</small>
+        </p>
+        <p class="mb-0">{{ summary }}</p>
+      {% else %}
+        <p class="mb-0 text-muted">No summary available.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

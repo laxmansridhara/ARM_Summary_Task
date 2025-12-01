@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+    {% block title %}
+        {% if user.username %}
+            <h2>{{ user.username }}</h2>
+        {% else %}
+            <h2>Profile</h2>
+        {% endif %} 
+    {% endblock %}
+
+    {% block main %}
+        {% if user.username %}
+            <h2>{{ user.username }}'s Profile</h2>
+        {% else %}
+            <h2>Default Profile</h2>
+        {% endif %} 
+
+        {% if user.role %}
+            <p>Account Type: {{ user.role }}</p>
+        {% else %}
+            <p>Account Type: Member</p>
+        {% endif %}
+
+        {% if user.created %}
+            <p>Joined: {{ user.created }}</p>
+        {% else %}
+            <p>Joined: 01/01/0001</p>
+        {% endif %}
+
+        {% if user.keywords %}
+            <p>Favourite Topics: {{ user.keywords }}</p>
+        {% else %}
+            <p>Favourite Topics: None selected</p>
+        {% endif %}
+
+        <a href="{% url 'change-username' %}">Change Username</a> |
+        <a href="{% url 'change-password' %}">Change Password</a> |
+        <a href="{% url 'change-email' %}">Change Email</a>
+
+        {% if user.role %}
+            {% if user.role == "Researcher" %}
+                <h3>Your Research Analytics</h3>
+                <div>[Researcher Papers Chart Placeholder]</div>
+            {% endif %}
+        {% endif %}
+{% endblock %}

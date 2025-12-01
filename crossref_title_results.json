@@ -1,0 +1,790 @@
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2025-08-28T12:25:56Z",
+      "timestamp": 1756383956547
+    },
+    "reference-count": 56,
+    "publisher": "PeerJ",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              5,
+              16
+            ]
+          ],
+          "date-time": "2023-05-16T00:00:00Z",
+          "timestamp": 1684195200000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>Citation analysis is used extensively in the bibliometrics literature to assess the impact of individual works, researchers, institutions, and even entire fields of study. In this article, we analyze citations in one large and influential field within computer science, namely computer systems. Using citation data from a cross-sectional sample of 2,088 papers in 50 systems conferences from 2017, we examine four research areas of investigation: overall distribution of systems citations; their evolution over time; the differences between databases (Google Scholar and Scopus), and; the characteristics of self-citations in the field. On citation distribution, we find that overall, systems papers were well cited, with the most cited subfields and conference areas within systems being security, databases, and computer architecture. Only 1.5% of papers remain uncited after five years, while 12.8% accrued at least 100 citations. For the second area, we find that most papers achieved their first citation within a year from publication, and the median citation count continued to grow at an almost linear rate over five years, with only a few papers peaking before that. We also find that early citations could be linked to papers with a freely available preprint, or may be primarily composed of self-citations. For the third area, it appears that the choice of citation database makes little difference in relative citation comparisons, despite marked differences in absolute counts. On the fourth area, we find that the ratio of self-citations to total citations starts relatively high for most papers but appears to stabilize by 12–18 months, at which point highly cited papers revert to predominately external citations. Past self-citation count (taken from each paper’s reference list) appears to bear little if any relationship with the future self-citation count of each paper. The primary practical implication of these results is that the impact of systems papers, as measured in citations, tends to be high relative to comparable studies of other fields and that it takes at least five years to stabilize. A secondary implication is that at least for this field, Google Scholar appears to be a reliable source of citation data for relative comparisons.</jats:p>",
+    "DOI": "10.7717/peerj-cs.1389",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          16
+        ]
+      ],
+      "date-time": "2023-05-16T07:17:17Z",
+      "timestamp": 1684221437000
+    },
+    "page": "e1389",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Citation analysis of computer systems papers"
+    ],
+    "prefix": "10.7717",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Eitan",
+        "family": "Frachtenberg",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Computer Science, Reed College, Portland, OR, United States of America"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "6873",
+        "key": "10.7717/peerj-cs.1389/ref-1",
+        "doi-asserted-by": "publisher",
+        "first-page": "726",
+        "DOI": "10.1038/415726a",
+        "article-title": "Citation analysis: the counting house",
+        "volume": "415",
+        "author": "Adam",
+        "year": "2002",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.1389/ref-2",
+        "doi-asserted-by": "publisher",
+        "first-page": "235",
+        "DOI": "10.1023/A:1021919228368",
+        "article-title": "A macro study of self-citation",
+        "volume": "56",
+        "author": "Aksnes",
+        "year": "2003",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "issue": "7611",
+        "key": "10.7717/peerj-cs.1389/ref-3",
+        "doi-asserted-by": "publisher",
+        "first-page": "201",
+        "DOI": "10.1038/535201a",
+        "article-title": "Watch out for cheats in citation game",
+        "volume": "535",
+        "author": "Biagioli",
+        "year": "2016",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-4",
+        "doi-asserted-by": "publisher",
+        "first-page": "446",
+        "DOI": "10.1145/383952.384090",
+        "article-title": "Cite me, cite my references? (Scholarly use of the ACM SIGIR proceedings based on two citation indexes)",
+        "author": "Broch",
+        "year": "2001"
+      },
+      {
+        "issue": "9",
+        "key": "10.7717/peerj-cs.1389/ref-5",
+        "doi-asserted-by": "publisher",
+        "first-page": "82",
+        "DOI": "10.1145/2701412",
+        "article-title": "On the categorization of scientific citation profiles in computer science",
+        "volume": "58",
+        "author": "Chakraborty",
+        "year": "2015",
+        "journal-title": "Communications of the ACM"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-6",
+        "doi-asserted-by": "publisher",
+        "first-page": "295",
+        "DOI": "10.1016/j.respol.2012.05.004",
+        "article-title": "Peer review versus citations—an analysis of best paper prizes",
+        "volume": "42",
+        "author": "Coupé",
+        "year": "2013",
+        "journal-title": "Research Policy"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-7",
+        "doi-asserted-by": "publisher",
+        "first-page": "271",
+        "DOI": "10.1007/s11192-020-03624-0",
+        "article-title": "Viewing computer science through citation analysis: Salton and Bergmark Redux",
+        "volume": "125",
+        "author": "Devarakonda",
+        "year": "2020",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.5590574",
+        "article-title": "Systems conferences analysis dataset",
+        "author": "Frachtenberg",
+        "year": "2021",
+        "journal-title": "Zenodo"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.1389/ref-9",
+        "doi-asserted-by": "publisher",
+        "first-page": "47",
+        "DOI": "10.3390/publications10040047",
+        "article-title": "Multifactor citation analysis over five years: a case study of SIGMETRICS papers",
+        "volume": "10",
+        "author": "Frachtenberg",
+        "year": "2022",
+        "journal-title": "Publications"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-10",
+        "doi-asserted-by": "publisher",
+        "first-page": "e887",
+        "DOI": "10.7717/peerj-cs.887",
+        "article-title": "Research artifacts and citations in computer systems papers",
+        "volume": "8",
+        "author": "Frachtenberg",
+        "year": "2022",
+        "journal-title": "PeerJ Computer Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.1389/ref-11",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0266439",
+        "DOI": "10.1371/journal.pone.0266439",
+        "article-title": "Underrepresentation of women in computer systems research",
+        "volume": "17",
+        "author": "Frachtenberg",
+        "year": "2022",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "issue": "11",
+        "key": "10.7717/peerj-cs.1389/ref-12",
+        "doi-asserted-by": "publisher",
+        "first-page": "124",
+        "DOI": "10.1145/1839676.1839701",
+        "article-title": "Relative status of journal and conference publications in computer science",
+        "volume": "53",
+        "author": "Freyne",
+        "year": "2010",
+        "journal-title": "Communications of the ACM"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.1389/ref-13",
+        "doi-asserted-by": "publisher",
+        "first-page": "661",
+        "DOI": "10.1016/S0306-4573(00)00047-9",
+        "article-title": "Scholarly publishing in the Internet age: a citation analysis of computer science literature",
+        "volume": "37",
+        "author": "Goodrum",
+        "year": "2001",
+        "journal-title": "Information Processing & Management"
+      },
+      {
+        "issue": "3",
+        "key": "10.7717/peerj-cs.1389/ref-14",
+        "doi-asserted-by": "publisher",
+        "first-page": "823",
+        "DOI": "10.1016/j.joi.2017.06.005",
+        "article-title": "Suitability of Google Scholar as a source of scientific information and as a source of data for scientific evaluation—review of the literature",
+        "volume": "11",
+        "author": "Halevi",
+        "year": "2017",
+        "journal-title": "Journal of Informetrics"
+      },
+      {
+        "issue": "4989",
+        "key": "10.7717/peerj-cs.1389/ref-15",
+        "doi-asserted-by": "publisher",
+        "first-page": "25",
+        "DOI": "10.1126/science.1986409",
+        "article-title": "Who’s uncited now?",
+        "volume": "251",
+        "author": "Hamilton",
+        "year": "1991",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.1389/ref-16",
+        "first-page": "5",
+        "article-title": "The impact of electronic journals on scholarly communication: a citation analysis",
+        "volume": "7",
+        "author": "Harter",
+        "year": "1996",
+        "journal-title": "The Public-Access Computer Systems Review"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.1389/ref-17",
+        "doi-asserted-by": "publisher",
+        "first-page": "787",
+        "DOI": "10.1007/s11192-015-1798-9",
+        "article-title": "Google Scholar, Scopus and the Web of Science: a longitudinal and cross-disciplinary comparison",
+        "volume": "106",
+        "author": "Harzing",
+        "year": "2016",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.1389/ref-18",
+        "doi-asserted-by": "publisher",
+        "first-page": "334",
+        "DOI": "10.5860/crl.63.4.334",
+        "article-title": "Use of electronic resources in scholarly electronic journals: a citation analysis",
+        "volume": "63",
+        "author": "Herring",
+        "year": "2002",
+        "journal-title": "College & Research Libraries"
+      },
+      {
+        "issue": "6",
+        "key": "10.7717/peerj-cs.1389/ref-19",
+        "doi-asserted-by": "publisher",
+        "first-page": "4585",
+        "DOI": "10.1007/s10664-020-09851-6",
+        "article-title": "Publish or perish, but do not forget your software artifacts",
+        "volume": "25",
+        "author": "Heumüller",
+        "year": "2020",
+        "journal-title": "Empirical Software Engineering"
+      },
+      {
+        "issue": "46",
+        "key": "10.7717/peerj-cs.1389/ref-20",
+        "doi-asserted-by": "publisher",
+        "first-page": "16569",
+        "DOI": "10.1073/pnas.0507655102",
+        "article-title": "An index to quantify an individual’s scientific research output",
+        "volume": "102",
+        "author": "Hirsch",
+        "year": "2005",
+        "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.1389/ref-21",
+        "doi-asserted-by": "publisher",
+        "first-page": "233",
+        "DOI": "10.1109/TPC.1977.6591956",
+        "article-title": "Computer science journals—an iterated citation analysis",
+        "volume": "PC-20",
+        "author": "Hirst",
+        "year": "1977",
+        "journal-title": "IEEE Transactions on Professional Communication"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.1389/ref-22",
+        "doi-asserted-by": "publisher",
+        "first-page": "29",
+        "DOI": "10.1145/3371934.3371948",
+        "article-title": "Five decades of the ACM special interest group on data communications (SIGCOMM) a bibliometric perspective",
+        "volume": "49",
+        "author": "Iqbal",
+        "year": "2019",
+        "journal-title": "ACM SIGCOMM Computer Communication Review"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.1389/ref-23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1121",
+        "DOI": "10.1007/s11192-019-03086-z",
+        "article-title": "A bibliometric analysis of publications in computer networking research",
+        "volume": "119",
+        "author": "Iqbal",
+        "year": "2019",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1258/shorts.2009.100020",
+        "article-title": "The impact of article titles on citation hits: an analysis of general and specialist medical journals",
+        "volume": "1",
+        "author": "Jacques",
+        "year": "2010",
+        "journal-title": "JRSM Short Reports"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-25",
+        "doi-asserted-by": "publisher",
+        "first-page": "42",
+        "DOI": "10.1080/0194262X.2021.1951424",
+        "article-title": "Most cited works on cloud computing: the ‘Citation Classics’ as viewed through dimensions.ai",
+        "volume": "41",
+        "author": "Khan",
+        "year": "2022",
+        "journal-title": "Science & Technology Libraries"
+      },
+      {
+        "issue": "7",
+        "key": "10.7717/peerj-cs.1389/ref-26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1055",
+        "DOI": "10.1002/asi.20584",
+        "article-title": "Google Scholar citations and Google Web/URL citations: a multi-discipline exploratory analysis",
+        "volume": "58",
+        "author": "Kousha",
+        "year": "2007",
+        "journal-title": "Journal of the American Society for Information Science and Technology"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.1389/ref-27",
+        "doi-asserted-by": "publisher",
+        "first-page": "858",
+        "DOI": "10.1002/asi.21011",
+        "article-title": "The decline in the concentration of citations, 1900–2007",
+        "volume": "60",
+        "author": "Larivière",
+        "year": "2009",
+        "journal-title": "Journal of the American Society for Information Science and Technology"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-28",
+        "first-page": "062109",
+        "article-title": "A simple proposal for the publication of journal citation distributions",
+        "author": "Larivière",
+        "year": "2016",
+        "journal-title": "BioRxiv"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-29",
+        "doi-asserted-by": "publisher",
+        "first-page": "281",
+        "DOI": "10.1007/s11192-018-2943-z",
+        "article-title": "Predictive power of conference-related factors on citation rates of conference papers",
+        "volume": "118",
+        "author": "Lee",
+        "year": "2019",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-30",
+        "first-page": "476",
+        "article-title": "A citation analysis of the SIGCSE 2007 proceedings",
+        "author": "Lister",
+        "year": "2008"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.1389/ref-31",
+        "doi-asserted-by": "publisher",
+        "first-page": "342",
+        "DOI": "10.1002/(SICI)1097-4571(198909)40:5<342::AID-ASI7>3.0.CO;2-U",
+        "article-title": "Problems of citation analysis: a critical review",
+        "volume": "40",
+        "author": "MacRoberts",
+        "year": "1989",
+        "journal-title": "Journal of the American Society for Information Science"
+      },
+      {
+        "issue": "3",
+        "key": "10.7717/peerj-cs.1389/ref-32",
+        "doi-asserted-by": "publisher",
+        "first-page": "474",
+        "DOI": "10.1002/asi.23970",
+        "article-title": "The mismeasure of science: citation analysis",
+        "volume": "69",
+        "author": "MacRoberts",
+        "year": "2018",
+        "journal-title": "Journal of the Association for Information Science and Technology"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.1389/ref-33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1160",
+        "DOI": "10.1016/j.joi.2018.09.002",
+        "article-title": "Google scholar, web of science, and scopus: a systematic comparison of citations in 252 subject categories",
+        "volume": "12",
+        "author": "Martin-Martin",
+        "year": "2018",
+        "journal-title": "Journal of Informetrics"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-34",
+        "doi-asserted-by": "publisher",
+        "first-page": "133",
+        "DOI": "10.1007/s11192-009-0078-y",
+        "article-title": "Assessing the quality of scientific conferences based on bibliographic citations",
+        "volume": "83",
+        "author": "Martins",
+        "year": "2010",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-35",
+        "doi-asserted-by": "publisher",
+        "first-page": "74",
+        "DOI": "10.1145/3376901",
+        "article-title": "A bibliometric approach for detecting the gender gap in computer science",
+        "volume": "63",
+        "author": "Mattauch",
+        "year": "2020",
+        "journal-title": "Communications of the ACM"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-36",
+        "doi-asserted-by": "publisher",
+        "first-page": "32",
+        "DOI": "10.1088/2058-7058/20/1/33",
+        "article-title": "The rise and rise of citation analysis",
+        "volume": "20",
+        "author": "Meho",
+        "year": "2007",
+        "journal-title": "Physics World"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-37",
+        "volume-title": "Citation analysis in research evaluation",
+        "author": "Moed",
+        "year": "2006"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-38",
+        "doi-asserted-by": "publisher",
+        "first-page": "923",
+        "DOI": "10.1109/CONFLUENCE.2014.6949321",
+        "article-title": "Sentiment analyzer: analysis of journal citations from citation databases",
+        "author": "Parthasarathy",
+        "year": "2014"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.1389/ref-39",
+        "doi-asserted-by": "publisher",
+        "first-page": "e00300",
+        "DOI": "10.1016/j.heliyon.2017.e00300",
+        "article-title": "Citation analysis of scientific categories",
+        "volume": "3",
+        "author": "Patience",
+        "year": "2017",
+        "journal-title": "Heliyon"
+      },
+      {
+        "issue": "12",
+        "key": "10.7717/peerj-cs.1389/ref-40",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1145/1035134.1035153",
+        "article-title": "The health of research conferences and the dearth of big idea papers",
+        "volume": "47",
+        "author": "Patterson",
+        "year": "2004",
+        "journal-title": "Communications of the ACM"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-41",
+        "article-title": "Evaluating computer scientists and engineers for promotion and tenure",
+        "author": "Patterson",
+        "year": "1999",
+        "journal-title": "Computing Research News"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-42",
+        "first-page": "395",
+        "article-title": "Skewness in citation peak",
+        "author": "Pichappan",
+        "year": "1999"
+      },
+      {
+        "issue": "4",
+        "key": "10.7717/peerj-cs.1389/ref-43",
+        "doi-asserted-by": "publisher",
+        "first-page": "48",
+        "DOI": "10.1145/1107499.1107505",
+        "article-title": "Citation analysis of database publications",
+        "volume": "34",
+        "author": "Rahm",
+        "year": "2005",
+        "journal-title": "ACM Sigmod Record"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.1389/ref-44",
+        "doi-asserted-by": "publisher",
+        "first-page": "131",
+        "DOI": "10.1007/s100510050359",
+        "article-title": "How popular is your paper? An empirical study of the citation distribution",
+        "volume": "4",
+        "author": "Redner",
+        "year": "1998",
+        "journal-title": "The European Physical Journal B—Condensed Matter and Complex Systems"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-45",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/JCDL57899.2023.00020",
+        "article-title": "unarXive 2022: all arXiv publications pre-processed for NLP, including structured full-text and citation network",
+        "author": "Saier",
+        "year": "2023"
+      },
+      {
+        "issue": "6",
+        "key": "10.7717/peerj-cs.1389/ref-46",
+        "doi-asserted-by": "publisher",
+        "first-page": "431",
+        "DOI": "10.1177/016555159802400606",
+        "article-title": "Patterns of self-citation across disciplines (1980–1989)",
+        "volume": "24",
+        "author": "Snyder",
+        "year": "1998",
+        "journal-title": "Journal of Information Science"
+      },
+      {
+        "issue": "5",
+        "key": "10.7717/peerj-cs.1389/ref-47",
+        "doi-asserted-by": "publisher",
+        "first-page": "806",
+        "DOI": "10.1108/00220411111164682",
+        "article-title": "Journal bibliometric analysis: a case study on the Journal of Documentation",
+        "volume": "67",
+        "author": "Tsay",
+        "year": "2011",
+        "journal-title": "Journal of Documentation"
+      },
+      {
+        "issue": "44",
+        "key": "10.7717/peerj-cs.1389/ref-48",
+        "doi-asserted-by": "publisher",
+        "first-page": "22094",
+        "DOI": "10.1073/pnas.1905819116",
+        "article-title": "Shorter distances between papers over time are due to more cross-field references and increased citation rate to higher-impact papers",
+        "volume": "116",
+        "author": "Varga",
+        "year": "2019",
+        "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+      },
+      {
+        "issue": "12",
+        "key": "10.7717/peerj-cs.1389/ref-49",
+        "doi-asserted-by": "publisher",
+        "first-page": "2674",
+        "DOI": "10.1002/asi.23349",
+        "article-title": "Conferences versus journals in computer science",
+        "volume": "66",
+        "author": "Vrettas",
+        "year": "2015",
+        "journal-title": "Journal of the Association for Information Science and Technology"
+      },
+      {
+        "issue": "3",
+        "key": "10.7717/peerj-cs.1389/ref-50",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0118446",
+        "DOI": "10.1371/journal.pone.0118446",
+        "article-title": "Peer-selected “best papers”—are they really that “good”?",
+        "volume": "10",
+        "author": "Wainer",
+        "year": "2015",
+        "journal-title": "PLOS ONE"
+      },
+      {
+        "issue": "2",
+        "key": "10.7717/peerj-cs.1389/ref-51",
+        "doi-asserted-by": "publisher",
+        "first-page": "365",
+        "DOI": "10.1016/j.joi.2016.02.007",
+        "article-title": "A review of the literature on citation impact indicators",
+        "volume": "10",
+        "author": "Waltman",
+        "year": "2016",
+        "journal-title": "Journal of Informetrics"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-52",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1017/9781108610834",
+        "volume-title": "The science of science",
+        "author": "Wang",
+        "year": "2021"
+      },
+      {
+        "issue": "3",
+        "key": "10.7717/peerj-cs.1389/ref-53",
+        "doi-asserted-by": "publisher",
+        "first-page": "851",
+        "DOI": "10.1007/s11192-012-0775-9",
+        "article-title": "Citation time window choice for research impact evaluation",
+        "volume": "94",
+        "author": "Wang",
+        "year": "2013",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-54",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1016/j.dss.2016.03.006",
+        "article-title": "Cloud computing research in the IS discipline: a citation/co-citation analysis",
+        "volume": "86",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Decision Support Systems"
+      },
+      {
+        "issue": "1",
+        "key": "10.7717/peerj-cs.1389/ref-55",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1023/b:scie.0000013299.38210.74",
+        "article-title": "A bibliometric approach to the role of author self-citations in scientific communication",
+        "volume": "59",
+        "author": "Wolfgang",
+        "year": "2004",
+        "journal-title": "Scientometrics"
+      },
+      {
+        "key": "10.7717/peerj-cs.1389/ref-56",
+        "first-page": "1",
+        "article-title": "Research and the long tail: a large-scale citation analysis",
+        "author": "Wu",
+        "year": "2009"
+      }
+    ],
+    "container-title": [
+      "PeerJ Computer Science"
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://peerj.com/articles/cs-1389.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-1389.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-1389.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-1389.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          13
+        ]
+      ],
+      "date-time": "2023-12-13T01:12:11Z",
+      "timestamp": 1702429931000
+    },
+    "score": 33.962036,
+    "resource": {
+      "primary": {
+        "URL": "https://peerj.com/articles/cs-1389"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          16
+        ]
+      ]
+    },
+    "references-count": 56,
+    "alternative-id": [
+      "10.7717/peerj-cs.1389"
+    ],
+    "URL": "https://doi.org/10.7717/peerj-cs.1389",
+    "archive": [
+      "CLOCKSS",
+      "LOCKSS",
+      "Portico"
+    ],
+    "ISSN": [
+      "2376-5992"
+    ],
+    "issn-type": [
+      {
+        "value": "2376-5992",
+        "type": "electronic"
+      }
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          16
+        ]
+      ]
+    },
+    "article-number": "e1389"
+  }
+]

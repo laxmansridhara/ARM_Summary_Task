@@ -1,0 +1,83 @@
+services:
+  web:
+    container_name: dashboardarm
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: gunicorn dashboard.wsgi:application --bind 0.0.0.0:8000 --workers=4 --threads=2 --timeout=60
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+      - kafka
+    environment:
+      - DJANGO_SETTINGS_MODULE=dashboard.settings
+      - POSTGRES_DB=dashboard_db
+      - POSTGRES_USER=cs_user
+      - POSTGRES_PASSWORD=cs_pass
+      - POSTGRES_HOST=postgresdb
+      - POSTGRES_PORT=5432
+
+  db:
+    image: postgres:16
+    platform: linux/arm64    # Ensures compatibility if you’re on ARM64 (e.g. M1/M2)
+    container_name: postgresdb
+    environment:
+      - POSTGRES_DB=dashboard_db
+      - POSTGRES_USER=cs_user
+      - POSTGRES_PASSWORD=cs_pass
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cs_user -d dashboard_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  kafka:
+    image: apache/kafka:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_KRAFT_MODE: "true"
+      KAFKA_PROCESS_ROLES: "broker,controller"
+      KAFKA_NODE_ID: 1
+      KAFKA_CONTROLLER_QUORUM_VOTERS: "1@kafka:9093"
+      KAFKA_LISTENERS: "PLAINTEXT://:9092,CONTROLLER://:9093"
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://kafka:9092"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_CONTROLLER_LISTENER_NAMES: "CONTROLLER"
+    healthcheck:
+      test: ["CMD", "bash", "-c", "nc -z localhost 9092"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - kafka-data:/var/lib/kafka/data
+
+  scraper:
+    build: .
+    command: python -m dashboard_app.webscraper
+    depends_on:
+      - kafka
+      - zookeeper
+    environment:
+      - DJANGO_SETTINGS_MODULE=dashboard.settings
+    deploy:
+      replicas: 8
+
+  zookeeper:
+    image: wurstmeister/zookeeper:latest
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+
+volumes:
+  kafka-data:
+  postgres-data:

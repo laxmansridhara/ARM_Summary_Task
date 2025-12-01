@@ -1,0 +1,86 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block title %}
+    {% if author.name %}
+        {{ author.name }}
+    {% else %}
+        Author Profile
+    {% endif %}
+{% endblock %}
+
+{% block main %}
+<div class="container mt-4">
+
+    <h4>{{ author.name }}</h4>
+
+    <!-- Author Info Card -->
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h3 class="card-title text-primary">{{ author.name }}</h3>
+
+            <p class="card-text mb-1">
+                <strong>ORCID:</strong>
+                {% if author.orcid %}
+                    <a href="https://orcid.org/{{ author.orcid }}" target="_blank">
+                        {{ author.orcid }}
+                    </a>
+                {% else %}
+                    <span class="text-muted">Not available</span>
+                {% endif %}
+            </p>
+
+            <p class="card-text">
+                <strong>Total Citations:</strong>
+                {{ total_citations|default:"0" }}
+            </p>
+        </div>
+    </div>
+
+    <!-- Top Topics Card -->
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title text-success">Top 10 Topics</h4>
+
+            {% if top_topics %}
+                <ul class="list-group list-group-flush mt-2">
+                    {% for topic, count in top_topics %}
+                        <li class="list-group-item d-flex justify-content-between">
+                            {{ topic }}
+                            <span class="badge bg-secondary">{{ count }}</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p class="text-muted mt-3">No topics available.</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Publications Card -->
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h4 class="card-title text-info">Publications</h4>
+
+            {% if papers %}
+                <ul class="list-group list-group-flush mt-2">
+                    {% for paper in papers %}
+                        <li class="list-group-item">
+                            <a href="{% url 'paper_detail' %}?doi={{ paper.doi }}" class="text-decoration-none">
+                                <strong>{{ paper.title }}</strong>
+                            </a>
+
+                            <div class="small text-muted">
+                                Citations: {{ paper.citations_count }}
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p class="text-muted mt-3">No publications found.</p>
+            {% endif %}
+        </div>
+    </div>
+
+</div>
+{% endblock %}

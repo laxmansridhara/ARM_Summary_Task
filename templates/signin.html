@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+{% block main %}
+   <body>
+        <h1>🚀 Welcome to the Dashboard</h1>
+        <p>This is your sign in page.</p>
+        <nav>
+            <a href="{% url 'admin:index' %}">Admin</a> |
+            <a href="/dashboard/">Dashboard App</a>
+        </nav>
+    </body>
+{% endblock %}

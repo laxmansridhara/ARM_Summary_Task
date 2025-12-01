@@ -1,0 +1,132 @@
+
+=== Scraper Started: 2025-10-12 13:29:51 ===
+
+⚠️ No CSV found at dashboard_app/data/keywords.csv
+
+🔍 Searching Crossref for: 'computer science'
+Status Code: 200
+✅ Saved paper: Computer Science and Education in Computer Science
+✅ Saved paper: Computer Science and Education in Computer Science
+✅ Saved paper: Computer Science and Education in Computer Science
+❌ Error while processing 'computer science': Unknown format code 'd' for object of type 'str'
+🔍 Searching Crossref for: 'machine learning'
+Status Code: 200
+❌ Error while processing 'machine learning': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'deep learning'
+Status Code: 200
+❌ Error while processing 'deep learning': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'artificial intelligence'
+Status Code: 200
+❌ Error while processing 'artificial intelligence': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'data mining'
+Status Code: 200
+❌ Error while processing 'data mining': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'neural networks'
+Status Code: 200
+❌ Error while processing 'neural networks': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'natural language processing'
+Status Code: 200
+❌ Error while processing 'natural language processing': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'computer vision'
+Status Code: 200
+✅ Saved paper: Computer vision
+❌ Error while processing 'computer vision': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'cloud computing'
+Status Code: 200
+❌ Error while processing 'cloud computing': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'blockchain'
+Status Code: 200
+❌ Error while processing 'blockchain': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'cybersecurity'
+Status Code: 200
+❌ Error while processing 'cybersecurity': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'big data'
+Status Code: 200
+❌ Error while processing 'big data': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'graph neural networks'
+Status Code: 200
+✅ Saved paper: Graph Neural Networks
+❌ Error while processing 'graph neural networks': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'knowledge graphs'
+Status Code: 200
+❌ Error while processing 'knowledge graphs': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'distributed systems'
+Status Code: 200
+❌ Error while processing 'distributed systems': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'quantum computing'
+Status Code: 200
+✅ Saved paper: Quantum computing: Cloudy computing
+✅ Saved paper: Quantum leaps [quantum computing]
+❌ Error while processing 'quantum computing': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'software engineering'
+Status Code: 200
+❌ Error while processing 'software engineering': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'bioinformatics'
+Status Code: 200
+✅ Saved paper: Bioinformatics: Bioinformatics Central
+❌ Error while processing 'bioinformatics': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'reinforcement learning'
+Status Code: 200
+✅ Saved paper: Reinforcement Learning and Deep Reinforcement Learning
+❌ Error while processing 'reinforcement learning': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'internet of things'
+Status Code: 200
+❌ Error while processing 'internet of things': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'data science'
+Status Code: 200
+❌ Error while processing 'data science': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'recommender systems'
+Status Code: 200
+❌ Error while processing 'recommender systems': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+🔍 Searching Crossref for: 'computational linguistics'
+Status Code: 200
+❌ Error while processing 'computational linguistics': duplicate key value violates unique constraint "dashboard_app_authors_pkey"
+DETAIL:  Key (id)=() already exists.
+
+
+⚠️ Errored Terms (23): ['computer science', 'machine learning', 'deep learning', 'artificial intelligence', 'data mining', 'neural networks', 'natural language processing', 'computer vision', 'cloud computing', 'blockchain', 'cybersecurity', 'big data', 'graph neural networks', 'knowledge graphs', 'distributed systems', 'quantum computing', 'software engineering', 'bioinformatics', 'reinforcement learning', 'internet of things', 'data science', 'recommender systems', 'computational linguistics']
+🆕 New Papers Added (9): ['Computer Science and Education in Computer Science', 'Computer Science and Education in Computer Science', 'Computer Science and Education in Computer Science', 'Computer vision', 'Graph Neural Networks', 'Quantum computing: Cloudy computing', 'Quantum leaps [quantum computing]', 'Bioinformatics: Bioinformatics Central', 'Reinforcement Learning and Deep Reinforcement Learning'] ...
+=== Scraper Finished: 2025-10-12 13:30:28 ===
+
